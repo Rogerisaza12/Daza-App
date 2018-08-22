@@ -11,6 +11,7 @@ public class CameraMovement : MonoBehaviour
     public bool bounds;
     public Vector3 minCameraPos;
     public Vector3 maxCameraPos;
+
     void Update()
     {
         if (Input.GetMouseButton(0))
